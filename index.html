@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="#">
+
+        <title>Decodificador</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="img/assets/logo.png" alt="logo" width="40px" height="40px">
+    </header>
+    <main>
+        <section>
+            <textarea class="text"  placeholder="Digite aqui o seu texto" ></textarea>
+            <div class="informacao">
+            <p> Apenas letra minusculas e sem acento</p>
+            </div>
+            <div class="botoes">
+            <button onclick="btnEncripto()" class="btn-cripto" > Criptografar</button>
+            <button  onclick="btnDescripto()"class="btn-descripto">Descriptografar</button>
+            </div>
+                </section>
+            
+                <section>
+                    <textarea class="mensagem"  ></textarea>
+
+            <button  onclick="btncopiar()"  id= "copiar" class= "btn-copiar">Copiar</button>
+            
+                </section>
+    </main>
+   
+<footer> Desenvolvido por Marina Souza </footer>
+<script src= "script.js"></script>
+</body>
+</html>
